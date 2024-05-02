@@ -4,7 +4,7 @@ const { MongoClient } = require('mongodb');
 
 const app = express();
 const PORT = process.env.PORT || 8080;
-const mongoURI = 'mongodb+srv://nyk16001:Fortnite12@cluster0.mhbiosc.mongodb.net/team_mod_1';
+const mongoURI = 'mongodb+srv://nyk16001:<PASSWORD>@cluster0.mhbiosc.mongodb.net/team_mod_1';
 
 app.use(cors());
 
